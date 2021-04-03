@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-color: #ffffff;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #000000;
+    margin: 0px 0px 5px 0px;
+  }
+  
+  .page-subtitle {
+    color: #b2b2b2;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  
+  .quadro {
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+button {
+  background-color: #ffffff;
+  border: solid 2px #000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  padding: 5px;
+}
+
+  h2 {
+    position: relative;
+    font-size:18px;
+    font-weight:bold;
+    left: calc(50% - 200px);
+    width: 400px;
+    text-align:center;
+    color:#000000;
+    padding-bottom: 10px;
+  }
+  
+@media only screen and (max-width: 600px) {
+   img {max-width: 500px;}
+  .quadro {max-width:500px;}
+}
